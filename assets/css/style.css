@@ -53,7 +53,6 @@ header p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: space-around; */
     font-family: Athene;
     background-color: #EFE8D7;
     color: #042A5A;
@@ -87,39 +86,113 @@ header p {
     font-family: OpenSans-Regular;
 }
 
-.sub__header__left {
-    width: 30%;
+/* Header der einzelnen Bereiche */
+.sub__header__left,
+.sub__header__right {
+    width: 100%;
     padding-top: 5%;
 }
 
 .sub__header__left p {
-    padding-left: 20%;
+    padding-left: 5%;
     font-size: 1.5rem;
     margin-bottom: 3%;
 }
 
-.sub__header__left h2 {
+.sub__header__left h2,
+.sub__header__right h2 {
+    width: 32rem;
     font-size: 10rem;
     font-family: Athene;
     word-wrap: break-word;
     font-weight: 400;
 }
 
+.sub__header__right p {
+    padding-right: 6%;
+    font-size: 1.5rem;
+    margin-bottom: 3%;
+}
+
+.sub__header__right p,
+.sub__header__right h2 {
+    text-align: right;
+    margin-right: 0;
+    margin-left: auto;
+}
+
+
+/* Main - zweiter Bereich */
 .release {
     background-color: #F4C4C4;
-    display: flex;
-    flex-direction: column;
+    color: #282B29;
+    /* display: flex;
+    flex-wrap: wrap; */
 }
 
-.values {
+.release .values {
     margin-right: 5%;
     margin-top: 2%;
+    margin-left: auto;
     width: 40%;
-    align-self: flex-end;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.values p {
+.release .values .text {
     font-size: 1.6rem;
-    margin-bottom: 5%;
+    margin-bottom: 8%;
     line-height: 2;
+}
+
+.release .values ul,
+.release .values ul li {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.release .values ul li {
+    border-bottom: 1px solid #282B29;
+}
+
+.release .values ul li p {
+    /* font-size: 1.3rem; */
+    margin-bottom: 4%;
+    margin-top: 4%;
+}
+
+.values__headline {
+    margin-bottom: 0;
+    border-bottom: 1px solid #282B29;
+    font-size: 1.5rem;
+    text-align: right;
+}
+
+.number {
+    font-size: 1.3rem;
+    width: 10%;
+}
+
+.middle {
+    font-size: 2rem;
+    flex-grow: 3;
+}
+
+.description {
+    width: 25%;
+    font-size: 1.3rem;
+    text-align: right;
+}
+
+.stamp {
+    width: 25%;
+    margin: 25% 0 25% auto;
+}
+
+/* Main - dritter Bereich */
+
+.works {
+    background-color: #DEB873;
+    color: #7D2222;
 }
