@@ -1,0 +1,58 @@
+/* ==========Assets============
+Farben: #042A5A, #F4C4C4, #282B29, #7D2222, #DEB873, #D2D2D2, #388883
+
+Schriften: Open Sans, Athene
+================================ */
+@font-face {
+    font-family: Athene;
+    src: url("../fonts/Athene.otf");
+}
+
+@font-face {
+    font-family: OpenSans-Regular;
+    src: url("../fonts/OpenSans-Regular.ttf");
+}
+
+/* Allgemein */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    font-family: OpenSans-Regular;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #042A5A;
+    color: #042A5A;
+    padding: 1% 10%;
+}
+
+header h1,
+header p {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+/* Main - erster Bereich */
+
+.title {
+    font-family: Athene;
+    width: 80%;
+    margin: 2rem auto;
+}
+
+.title h1 {
+    font-size: 10rem;
+    padding: 5rem 10rem;
+    letter-spacing: 1rem;
+    font-weight: 400;
+    border-bottom: 1px solid #042A5A;
+}
