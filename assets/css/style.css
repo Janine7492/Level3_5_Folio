@@ -59,14 +59,19 @@ header p {
     color: #042A5A;
 }
 
+.title article {
+    margin-bottom: 10rem;
+    margin-top: 5rem;
+}
+
 .title h1 {
     font-size: 12rem;
-    padding: 5rem 10rem;
+    padding: 2rem 10rem;
     /* letter-spacing: 1rem; */
     font-weight: 400;
     text-align: center;
     border-bottom: 1px solid #042A5A;
-    margin-bottom: 10rem;
+
 }
 
 .title figure {
@@ -80,4 +85,41 @@ header p {
 
 .title figure figcaption span {
     font-family: OpenSans-Regular;
+}
+
+.sub__header__left {
+    width: 30%;
+    padding-top: 5%;
+}
+
+.sub__header__left p {
+    padding-left: 20%;
+    font-size: 1.5rem;
+    margin-bottom: 3%;
+}
+
+.sub__header__left h2 {
+    font-size: 10rem;
+    font-family: Athene;
+    word-wrap: break-word;
+    font-weight: 400;
+}
+
+.release {
+    background-color: #F4C4C4;
+    display: flex;
+    flex-direction: column;
+}
+
+.values {
+    margin-right: 5%;
+    margin-top: 2%;
+    width: 40%;
+    align-self: flex-end;
+}
+
+.values p {
+    font-size: 1.6rem;
+    margin-bottom: 5%;
+    line-height: 2;
 }
