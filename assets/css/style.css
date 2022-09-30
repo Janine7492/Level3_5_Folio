@@ -27,11 +27,17 @@ html {
 
 /* Header */
 header {
+    top: 0px;
+    position: fixed !important;
+    position: absolute;
+    width: 100%;
+    z-index: 10;
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid #042A5A;
     color: #042A5A;
     padding: 1% 10%;
+
 }
 
 header h1,
