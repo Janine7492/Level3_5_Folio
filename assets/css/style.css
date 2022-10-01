@@ -74,7 +74,7 @@ header p {
 }
 
 .title h1 span {
-    letter-spacing: -1rem;
+    font-weight: 100;
 }
 
 .title figure {
